@@ -1,1 +1,53 @@
-hi
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Dee Bug Clicker Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <img src="assets/images/test.png" onclick="cookieClick(1)">
+    <br />
+
+    <button onclick="savegame()">Save Game</button>
+
+    <br />
+
+    <div class="devtools">
+      <h3>Cheats</h3>
+      <button onclick="cookieClick(-1000)">-1000</button>
+      <button onclick="cookieClick(-100)">-100</button>
+      <button onclick="resetCookies()">0</button>
+      <button onclick="cookieClick(100)">+100</button>
+      <button onclick="cookieClick(1000)">+1000</button>
+    </div>
+    <br />
+    <div class="info">
+      <h2>Your Stats</h2>
+      <ul>
+        CPS: <span id="cps">0</span></li>
+        <li>Cookies: <span id="cookies">0</span></li>
+        <li>Cursors: <span id="cursors">0</span></li>
+        <li>Crackheads: <span id="crackheads">0</span></li>
+      </ul>
+    </div>
+    <br />
+    <div class="shop">
+      <h2>Shop</h2>
+      <ul>
+        <li>Cursor Cost: <span id="cursorCost">25</span></li>
+        <li><button onclick="buyCursor()">Buy Cursor</button></li>
+        <li>Crackhead Cost: <span id="crackheadCost">300</span></li>
+        <li><button onclick="buyCrackhead()">Buy Crackhead</button></li>
+
+      </ul>
+    </div>
+    <br />
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

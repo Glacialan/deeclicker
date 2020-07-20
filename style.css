@@ -1,0 +1,65 @@
+html {
+  font-family: COMIC SANS MS;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+img {
+  height: 25%;
+  width: 25%;
+
+  border: 5px solid orange;
+}
+
+img:active {
+  transform: translateY(4px);
+  transform: scale(6px);
+  transform: scale3d(2px);
+}
+
+button {
+  font-family: COMIC SANS MS;
+  background-color: orange;
+
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+
+.info {
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+  position: absolute;
+  left: 0;
+  right: 6;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 5px;
+  padding: 0;
+}
+
+.shop {
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+  position: absolute;
+  left: 6;
+  right: 0;
+  top: 0;
+}
+
+
+.devtools {
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+  position: absolute;
+  left: 0;
+  right: 6;
+  bottom: 0;
+
+}
